@@ -4,6 +4,10 @@ body{
 	font-family: sans-serif;
 	
 }
+.main{
+	margin-top: 50px;
+	height: 30%;
+}
 .container{
 	width: 50%;
 	display: block;
@@ -57,7 +61,7 @@ ul{
 }
 nav{
 	height: 35px;
-	width: 97%;
+	width: 97.5%;
 	margin: auto;
 	padding: 10px;
 	background-color: #333;
@@ -83,24 +87,30 @@ nav a:hover{
 }
 .main{
 	background-color: white;
+	height: auto;
 }
 .part1,.part2{
-	width: 40%;
+    width: 50%;
 	height: 200px;
 	margin-top: 50px;
-	margin-left: 10px;
+	
 }
 .part1{
+	
 	float: left;
+	//margin-left: 10px;
 	background-color: #455
+
 }
 .part2{
 	
 	float: right;
-	background-color: #400
-	margin-left: 50%;
 	text-align: center;
+	//margin-right: 10px;
+	
+	background-color: #400
 
+	
 }
 .part3{
 	width: 50%;
@@ -136,6 +146,6 @@ nav a:hover{
 
 footer{
 	text-align: center;
-	padding: 70px;
+	padding: 150px;
 }
 
